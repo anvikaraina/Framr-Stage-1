@@ -37,14 +37,7 @@ export const modeConfig: Record<ChatMode, ModeConfig> = {
       'Draft a welcome message for new teammates.',
       'Brainstorm product launch themes.',
     ],
-    initialMessages: [
-      {
-        id: 'g-1',
-        role: 'assistant',
-        content:
-          'Welcome — I\'m your general assistant. Ask me anything and I\'ll respond with concise, practical suggestions.',
-      },
-    ],
+    initialMessages: [],
     mockResponses: [
       {
         id: 'gr-1',
@@ -80,13 +73,7 @@ export const modeConfig: Record<ChatMode, ModeConfig> = {
       'Explain async/await with an example.',
       'Show Python list comprehension patterns.',
     ],
-    initialMessages: [
-      {
-        id: 'c-1',
-        role: 'assistant',
-        content: 'Coding mode enabled. I can return TS/JS/Python mock snippets.',
-      },
-    ],
+    initialMessages: [],
     mockResponses: [
       {
         id: 'cr-1',
@@ -141,14 +128,7 @@ print(squares)  # [1, 9, 25]`,
       'How does factoring work conceptually?',
       'Outline derivative steps for x².',
     ],
-    initialMessages: [
-      {
-        id: 'm-1',
-        role: 'assistant',
-        content:
-          'Math mode is active. I\'ll provide mock step-by-step reasoning format for learning.',
-      },
-    ],
+    initialMessages: [],
     mockResponses: [
       {
         id: 'mr-1',
